@@ -28,16 +28,19 @@ a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .heropic {
+  background-image: url("../images/BrownieBoheroalt.png");
+  background-size: cover;
   max-width: 100%;
   display: block;
   align-content: center;
 }
 /* Larger than mobile */
-@media (min-width: 550px) {
-  .heropic: url("images/BrownieBohero.png");
-   max-width: 100%;
 }
-
+@media screen and (min-width: 480px) {
+.heropic {
+    background-image: url("../images/BrownieBohero.png");
+    }
+}
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
