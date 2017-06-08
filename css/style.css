@@ -1,0 +1,184 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+    border-radius: 100px;
+}
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #455bad;
+}
+.navbar-item {
+    position: relative;
+    float:left;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+}  
+
+a {
+    text-decoration: none;
+}
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.heropic {
+  max-width: 100%;
+  display: block;
+  align-content: center;
+}
+/* Larger than mobile */
+@media (min-width: 550px) {
+  .heropic: url("images/BrownieBohero.png");
+   max-width: 100%;
+}
+
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about { 
+    text-align: center;
+    margin: 10%;
+}
+.abouttext {
+    padding: 10%;
+}
+
+.fishbookabout {
+    max-width: 100%;
+}
+
+/* Divider1
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.divider1 {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+}
+.fishbookinside {
+    display: block;
+    margin: auto;
+    width: 50%;
+}    
+    
+/* fisherman
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fisherman { 
+    text-align: center;
+    padding: 10%;
+}
+.fishermanpic {
+    position: relative;
+    max-width: 100%;
+}
+.fishandfly {
+   max-width: 100%;
+   padding: 5%;
+   }
+
+/* Divider2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.divider2 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+    padding: 10%;
+    text-align: center;
+}
+
+/* Buy
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.buy {
+  padding: 15%;
+  text-align: center;
+  color: #55e0e5;
+}
+.purchase {
+  align-content: center;
+  line-height: 2.5rem;
+  color: #455bad;
+  margin-bottom: 10rem;
+}
+.cover {
+  position: relative;
+  align-content: center;
+  border: 2rem solid #455bad;
+}
+
+
+/* AboutAI
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.aboutai {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 5% 0 5%;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+    font-size: .5rem;
+    font-weight: 200;
+    margin-top: 5%;
+}
+
+.sun {
+    float: left;
+}
+
+.text {
+font-family: 'Dancing Script', cursive;
+font-family: 'Ledger', serif;
+}
+
+/* CCForm
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ccform {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: #455bad;
+  text-align: center;
+  padding: 10%;
+}
+.paycard {
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+    padding: 5%;
+    box-shadow: 2rem;
+}
+.payherocontainer {
+    margin-bottom: 4rem;
+}
+.paycover {
+  align-content: center;
+  border: 20px solid #455bad;
+}
+
+.label {
+    color: #ffffff;
+} 
+.securitycodeInput {
+    font-size: 30%;
+}
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contact {
+  background-image: url("../images/authorbkgrnd.png");
+  background-size: cover;
+  color: #455bad;
+  text-align: center;
+  padding: 10%;
+}
+.contactcard {
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+    padding: 5%;
+    box-shadow: 2rem;
