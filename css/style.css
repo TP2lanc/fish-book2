@@ -11,6 +11,10 @@
   background-size: cover;
   color: #455bad;
 }
+.navbar-list {
+    list-style: none;
+    margin: 0;
+}
 .navbar-item {
     position: relative;
     float:left;
@@ -27,20 +31,11 @@ a {
 }
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.heropic {
-  background-image: url("../images/BrownieBoheroalt.png");
+.hero {
+  background-image: url("../images/BrownieBohero.png");
   background-size: cover;
-  max-width: 100%;
-  display: block;
-  align-content: center;
 }
-/* Larger than mobile */
-}
-@media screen and (min-width: 480px) {
-.heropic {
-    background-image: url("../images/BrownieBohero.png");
-    }
-}
+
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
@@ -53,6 +48,7 @@ a {
 
 .fishbookabout {
     max-width: 100%;
+    margin-left: 0;
 }
 
 /* Divider1
@@ -73,45 +69,57 @@ a {
 /* fisherman
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .fisherman { 
+    text-align: center;    
+}
+.encounter {
+    margin-top: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     text-align: center;
-    padding: 10%;
 }
 .fishermanpic {
-    position: relative;
     max-width: 100%;
+    padding-top: 10%;
+}
+.fishandflypic {
+   max-width: 100%;
+
+   }
+.learntext {
+    margin-top: 35%;
+    text-align: center;
 }
 .fishandfly {
-   max-width: 100%;
-   padding: 5%;
-   }
-
+    margin-bottom: 10%;
+}
 /* Divider2
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .divider2 {
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
-    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
 }
 
 /* Buy
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .buy {
-  padding: 15%;
+  padding: 20%;
   text-align: center;
   color: #55e0e5;
 }
 .purchase {
+  padding-top: 15%;    
   align-content: center;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
   color: #455bad;
-  margin-bottom: 10rem;
 }
 .cover {
   position: relative;
   align-content: center;
-  border: 2rem solid #455bad;
+  border: 3rem solid #455bad;
 }
 
 
