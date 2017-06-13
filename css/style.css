@@ -32,15 +32,19 @@ a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url("../images/BrownieBohero.png");
-  background-size: cover;
+    background-image: url("../images/BrownieBohero.png");
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
 }
 
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
     text-align: center;
-    margin: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
 .abouttext {
     padding: 10%;
@@ -106,7 +110,7 @@ a {
 /* Buy
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .buy {
-  padding: 20%;
+  padding: 10%;
   text-align: center;
   color: #55e0e5;
 }
