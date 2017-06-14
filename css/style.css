@@ -31,20 +31,24 @@ a {
 }
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero {
-    background-image: url("../images/BrownieBohero.png");
-    background-size: cover;
+.heropic {
+    background-image: url("../images/BrownieBoheroalt.png");
     max-width: 100%;
-    height: auto;
+    background-size: contain;
 }
+/* For devices larger than 550px */
+@media (min-width: 550px) 
+.heropic {
+    background-image: url("../images/BrownieBohero.png");
+    max-width: 100%;
+    background-size: contain;
 }
-
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
     text-align: center;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 .abouttext {
     padding: 10%;
@@ -84,11 +88,13 @@ a {
 .fishermanpic {
     max-width: 100%;
     padding-top: 10%;
+    align-content: center;
 }
 .fishandflypic {
    max-width: 100%;
-
+   align-content: center;
    }
+
 .learntext {
     margin-top: 35%;
     text-align: center;
