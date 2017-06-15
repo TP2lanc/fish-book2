@@ -32,26 +32,18 @@ a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .heropic {
-    background-image: url("../images/BrownieBoheroalt.png");
-    max-width: 100%;
-    background-size: contain;
-}
-/* For devices larger than 550px */
-@media (min-width: 550px) 
-.heropic {
-    background-image: url("../images/BrownieBohero.png");
     max-width: 100%;
     background-size: contain;
 }
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .abouttext {
-    padding: 10%;
+    padding: 20%;
+    text-align: center;
 }
 
 .fishbookabout {
@@ -72,8 +64,10 @@ a {
     display: block;
     margin: auto;
     width: 50%;
-}    
-    
+}
+.swimtext {
+    margin: 5%;
+}
 /* fisherman
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .fisherman { 
@@ -108,8 +102,7 @@ a {
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 7.5%;
     text-align: center;
 }
 
@@ -140,7 +133,14 @@ a {
   background-size: cover;
   color: #ffffff;
   text-align: center;
-  padding: 5% 5% 0 5%;
+  padding: 5% 8% 0% 8%;
+}
+.abouta {
+    padding-right: 5%;
+}
+
+.abouti {
+    padding-left: 5%;
 }
 
 /* Footer
@@ -148,7 +148,9 @@ a {
 .footer {
     font-size: .5rem;
     font-weight: 200;
-    margin-top: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 0;
 }
 
 .sun {
@@ -203,3 +205,8 @@ font-family: 'Ledger', serif;
     background-color: #ffffff;
     padding: 5%;
     box-shadow: 2rem;
+}
+.homebtn .sun {
+    align-content: center;
+    float: inherit;
+}
