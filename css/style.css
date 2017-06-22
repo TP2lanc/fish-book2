@@ -132,15 +132,23 @@ a {
   background-image: url("../images/background.png");
   background-size: cover;
   color: #ffffff;
+}
+
+.aitext {
   text-align: center;
-  padding: 5% 8% 0% 8%;
+  padding: 5%;
 }
 .abouta {
     padding-right: 5%;
 }
-
 .abouti {
     padding-left: 5%;
+}
+.buttons {
+    position: relative;
+    bottom: 0;
+    left: 0; right: 0;
+    text-align: center;
 }
 
 /* Footer
@@ -148,9 +156,11 @@ a {
 .footer {
     font-size: .5rem;
     font-weight: 200;
-    padding-bottom: 2%;
-    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
     margin: 0;
+    position: relative;
 }
 
 .sun {
