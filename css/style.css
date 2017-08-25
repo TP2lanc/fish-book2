@@ -18,16 +18,20 @@
 .navbar-item {
     position: relative;
     float:left;
-    padding: 10px 25px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
+    padding-left: 2%;
 }
-ul {
+.ul {
     list-style: none;
 }  
 
-a {
+.a {
     text-decoration: none;
+}
+
+.li {
+    margin-bottom: o;
 }
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -38,8 +42,8 @@ a {
 /* about
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .about { 
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 .abouttext {
     padding: 20%;
@@ -49,6 +53,7 @@ a {
 .fishbookabout {
     max-width: 100%;
     margin-left: 0;
+    padding-top: 20%;
 }
 
 /* Divider1
@@ -74,19 +79,20 @@ a {
     text-align: center;    
 }
 .encounter {
-    margin-top: 20%;
+    padding-top: 25%;
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
 }
 .fishermanpic {
     max-width: 100%;
-    padding-top: 10%;
+    padding-top: 15%;
     align-content: center;
 }
 .fishandflypic {
    max-width: 100%;
    align-content: center;
+   padding-left: 10%;    
    }
 
 .learntext {
@@ -137,6 +143,7 @@ a {
 .aitext {
   text-align: center;
   padding: 5%;
+  position: relative;
 }
 .abouta {
     padding-right: 5%;
@@ -144,11 +151,8 @@ a {
 .abouti {
     padding-left: 5%;
 }
-.buttons {
-    position: relative;
-    bottom: 0;
-    left: 0; right: 0;
-    text-align: center;
+.contactbuttons {
+    position: absolute;
 }
 
 /* Footer
